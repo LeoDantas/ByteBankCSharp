@@ -1,0 +1,5 @@
+C:\Desenvolvimento\Csharp\csharppoo-aula2\02-ByteBank\bin\Debug\02-ByteBank.exe.config
+C:\Desenvolvimento\Csharp\csharppoo-aula2\02-ByteBank\bin\Debug\02-ByteBank.exe
+C:\Desenvolvimento\Csharp\csharppoo-aula2\02-ByteBank\bin\Debug\02-ByteBank.pdb
+C:\Desenvolvimento\Csharp\csharppoo-aula2\02-ByteBank\obj\Debug\02-ByteBank.exe
+C:\Desenvolvimento\Csharp\csharppoo-aula2\02-ByteBank\obj\Debug\02-ByteBank.pdb

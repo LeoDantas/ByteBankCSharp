@@ -1,0 +1,12 @@
+C:\Desenvolvimento\Csharp\csharppoo-aula2\04-ByteBank\bin\Debug\04-ByteBank.exe.config
+C:\Desenvolvimento\Csharp\csharppoo-aula2\04-ByteBank\bin\Debug\04-ByteBank.exe
+C:\Desenvolvimento\Csharp\csharppoo-aula2\04-ByteBank\bin\Debug\04-ByteBank.pdb
+C:\Desenvolvimento\Csharp\csharppoo-aula2\04-ByteBank\obj\Debug\04-ByteBank.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\Csharp\csharppoo-aula2\04-ByteBank\obj\Debug\04-ByteBank.exe
+C:\Desenvolvimento\Csharp\csharppoo-aula2\04-ByteBank\obj\Debug\04-ByteBank.pdb
+C:\Users\luizd\source\repos\CSharpPOO\ByteBank\04-ByteBank\bin\Debug\04-ByteBank.exe.config
+C:\Users\luizd\source\repos\CSharpPOO\ByteBank\04-ByteBank\bin\Debug\04-ByteBank.exe
+C:\Users\luizd\source\repos\CSharpPOO\ByteBank\04-ByteBank\bin\Debug\04-ByteBank.pdb
+C:\Users\luizd\source\repos\CSharpPOO\ByteBank\04-ByteBank\obj\Debug\04-ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\luizd\source\repos\CSharpPOO\ByteBank\04-ByteBank\obj\Debug\04-ByteBank.exe
+C:\Users\luizd\source\repos\CSharpPOO\ByteBank\04-ByteBank\obj\Debug\04-ByteBank.pdb
