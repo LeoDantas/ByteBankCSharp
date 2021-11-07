@@ -11,32 +11,36 @@ namespace ByteBank
     {
         static void Main(string[] args)
         {
-            GerenciadorBonificacao gerenciador = new GerenciadorBonificacao();
+           CalcularBonificacao();
+           Console.ReadLine();
 
-            Funcionario carlos = new Funcionario();
-            Diretor eduardo = new Diretor();
+        }
 
-            carlos.Nome = "Carlos";
-            carlos.CPF = "09277901497";
-            carlos.Salario = 3000;
+        public static void CalcularBonificacao() {
+            GerenciadorBonificacao gerenciadorBonificacao = new GerenciadorBonificacao();
 
-            gerenciador.Registrar(carlos);
+            Funcionario pedro = new Designer("833.22.048-39");
+            pedro.Nome = "Pedro";
 
-            eduardo.Nome = "Eduardo";
-            eduardo.CPF = "08577401269";
-            eduardo.Salario = 15000;
+            Funcionario roberta = new Diretor("159.753.398-04");
+            roberta.Nome = "Roberta";
 
-            gerenciador.Registrar(eduardo);
+            Funcionario igor = new Auxiliar("981.198.778-53");
+            igor.Nome = "Igor";
 
-            Console.WriteLine(carlos.Nome);
-            Console.WriteLine(carlos.GetBonificacao());
+            Funcionario camila = new GerenteDeConta("326.985.628-89");
+            camila.Nome = "Camila";
 
-            Console.WriteLine(eduardo.Nome);
-            Console.WriteLine(eduardo.GetBonificacao());
+            Desenvolvedor guilherme = new Desenvolvedor("456.175.468-20");
+            guilherme.Nome = "Guilherme";
 
-            Console.Write("Total de bonificações: " + gerenciador.GetTotalBonificacao());
+            gerenciadorBonificacao.Registrar(pedro);
+            gerenciadorBonificacao.Registrar(roberta);
+            gerenciadorBonificacao.Registrar(igor);
+            gerenciadorBonificacao.Registrar(camila);
+            gerenciadorBonificacao.Registrar(guilherme);
 
-            Console.ReadLine();
+            Console.WriteLine("Total de Bonificações do mês: " + gerenciadorBonificacao.GetTotalBonificacao());
         }
     }
 }
