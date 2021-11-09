@@ -1,4 +1,5 @@
 ﻿using ByteBank.Funcionarios;
+using ByteBank.Sistemas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,8 @@ using System.Threading.Tasks;
 
 namespace ByteBank
 {
-    public class Diretor : Funcionario
-    {
+    public class Diretor : FuncionarioAutenticavel {
+
         public Diretor(string cpf) : base(5000, cpf) {
 
         }
@@ -21,5 +22,6 @@ namespace ByteBank
         {
             return Salario * 0.5;
         }
+
     }
 }
